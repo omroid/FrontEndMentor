@@ -48,7 +48,7 @@
             .container {
                 max-width: 23.4375rem;
             }
-            body #col2 {
+            body .col2 {
                 border-bottom-left-radius: 0px;
             }
         }

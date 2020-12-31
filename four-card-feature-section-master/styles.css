@@ -1,0 +1,83 @@
+﻿
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+        :root {
+            --Red: hsl(0, 78%, 62%);
+            --Cyan: hsl(180, 62%, 55%);
+            --Orange: hsl(34, 97%, 64%);
+            --Blue: hsl(212, 86%, 64%);
+            --Very_Dark_Blue: hsl(234, 12%, 34%);
+            --Grayish_Blue: hsl(229, 6%, 66%);
+            --Very_Light_Gray: hsl(0, 0%, 98%);
+        }
+
+        *, *::before, *::after {
+            font-family: 'Poppins', sans-serif;
+            Font-size: 15px;
+            font-weight:600;
+            color:var(--Grayish_Blue);
+        }
+
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+
+        body {
+            text-align: center;
+            background-color: var(--Very_Light_Gray);
+        }
+
+        .divCard {
+            max-width: 350px;
+            background-color: white;
+            box-shadow: 3px 3px 5px var(--Cyan);
+            border-radius: 10px;
+            text-align: center;
+            height: 250px;
+        }
+        .pading {
+            max-width: 400px;
+            padding: 10px;
+            text-align: center;
+        }
+        .div1 {
+            margin-top:100px;
+        }
+        .div2 {
+            margin-top: -270px;
+        }
+        .div3 {
+            margin-top: -100px;
+        }
+        .imgDiv {
+            float:right;
+           margin-top:40px;
+        }
+        .bold{
+            font-weight:600;
+            color:black;
+        }
+        .line {
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            margin-top: 0px;
+        }
+        .mainTitle {
+        font-weight:400;
+        color:black;
+        }
+    
+        @media screen and (max-width: 770px) {
+            .container {
+                max-width: 23.4375rem;
+            }
+            div.col-md-4 {
+                margin-top: 0px;
+            }
+        }
+  

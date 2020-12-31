@@ -1,0 +1,126 @@
+﻿
+
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+            color:black;
+        }
+
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+
+        @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+        :root {
+            --cyan: hsl(179, 62%, 43%);
+            --light-cyan: hsl(179, 40%, 60%);
+            --bright-yellow: hsl(71, 73%, 54%);
+            --light-gray: hsl(204, 43%, 93%);
+            --grayish-blue: hsl(218, 22%, 67%);
+        }
+
+        html {
+            box-sizing: border-box;
+            font-size: 100%;
+        }
+
+        *, *::before, *::after {
+            font-family: 'Karla', sans-serif;
+            box-sizing: inherit;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-weight: 400;
+            color:white;
+            background-color: var(--light-gray);
+        }
+     
+        .margin{
+            margin-top:30px;
+            margin-bottom:30px;
+            margin-left:30px;
+        }
+
+        @media screen and (max-width: 47.5rem) {
+            .container {
+                max-width: 23.4375rem;
+            }
+            body #col2 {
+                border-bottom-left-radius: 0px;
+            }
+        }
+
+
+
+
+
+        .containerDiv {
+            background-color: rgb(74,190,190);
+            margin-top: 30px;
+            border-radius: 5px;
+              max-width: 50rem;
+              justify-content: center;
+              align-items: center;
+
+        }
+
+        .row1 {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            background-color: white;
+            padding: 30px;
+        }
+
+
+        .title1 {
+            color: var(--grayish-blue);
+            font-weight: 700;
+        }
+
+        .subTitle1 {
+            color: var(--bright-yellow);
+            font-weight: 700;
+        }
+        .pRow1 {
+            color: var(--light-cyan);
+        }
+
+        .row2 {
+            align-items: center;
+        }
+        .price {
+            font-size: 34px;
+            color: white;
+        
+      
+        }
+        .pRow2 {
+            color: var(--light-gray);
+            font-size: 16px;
+            display: flex;
+  
+        }
+        .col2 {
+            background-color: rgb(43,179,179);
+            border-bottom-left-radius: 5px;
+        }
+        .title2 {
+            font-weight: 700;
+        }
+        .test {
+            padding-top: 13px;
+            padding-left:5px;
+        }
+
+        .TextColor3Div3
+        {
+            color: var(--light-gray);
+        }
+        .btnSignUp {
+            background-color: hsl(71, 73%, 54%); 
+            margin:30px;
+            max-width:83%;
+        }

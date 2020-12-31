@@ -1,0 +1,273 @@
+﻿
+    @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+        :root {
+            --Dark_Violet: hsl(256, 26%, 20%);
+            --Grayish_Blue: hsl(216, 30%, 68%);
+            --Very_Dark_Violet: hsl(270, 9%, 17%);
+            --Dark_Grayish_Violet: hsl(273, 4%, 51%);
+            --Very_Light_Gray: hsl(0, 0%, 98%);
+            --light_grey_blue:rgb(238, 238, 238);
+        }
+
+        .container {
+            font-family: 'Karla', sans-serif;
+        }
+
+        nav {
+            min-width: 100%;
+            background-color: white;
+        }
+        .navbar-collapse {
+            display: flex;
+            justify-content: flex-end;
+        }
+            nav li {
+                text-align: center;
+            }
+
+        nav button.navbar-toggler.collapsed span {
+            background-image: url("./images/icon-hamburger.svg") !important;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+
+        .toolbarBtnView {
+            background-color: white;
+        }
+            .toolbarBtnView:hover {
+                background-color: var(--Dark_Violet);
+                color:white;
+            
+            }
+        .row {
+            margin-top: 50px;
+        }
+        .darkColored {
+            background-color: var(--Dark_Violet);
+            color: white;
+        }
+        .humazingRowDiv {
+       
+            height: 500px;
+            margin-bottom: 300px;
+        }
+
+        .humazingColDiv1 {
+            background: url(./images/bg-pattern-intro-left-desktop.svg) no-repeat 0px 50vh;
+        }
+
+        .humazingColDiv2 {
+            background: url(./images/bg-pattern-intro-right-desktop.svg) no-repeat;
+            background-position:top right;
+     
+        }
+        .humazingColDiv1 h3 {
+            padding-top:100px;
+            padding-left:80px;
+        }
+        .humazingColDiv1 p {
+          
+            padding-left: 80px;
+        }
+        h3 {
+            font-weight: 700;
+            font-size: 50px;
+        }
+        h6 {
+            margin-top: 30px;
+            font-weight: 700;
+            font-size: 16px;
+        }
+        .humazingColDiv1 p {
+            
+            font-size: 16px;
+        }
+        .humazingBtn {
+            min-height: 40px;
+            width: 40%;
+            font-weight: 600;
+            background-color: var(--Dark_Violet);
+            color: white;
+            border-color: white;
+        }
+        .howWeWorkLineDiv .btn1 {
+            min-height: 40px;
+            font-weight: 600;
+            background-color: var(--Dark_Violet);
+            color: white;
+            border-color: white;
+        }
+
+
+            .humazingBtn:hover, .howWeWorkLineDiv .btn1:hover {
+                background-color: white;
+                color: var(--Dark_Violet);
+            }
+        .howWeWorkLineDiv {
+            padding-top: 30px;
+            text-align: center;
+        }
+            .howWeWorkLineDiv h4 {
+                font-size: 30px;
+                font-weight: 700;
+                text-align: center;
+            }
+     
+       
+        .offset-sm-3 {
+            margin-bottom: 30px;
+        }
+        .image-intro {
+            background-image: url(./images/image-intro-desktop.jpg);
+            min-width: 80%;
+            min-height: 565px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            opacity: 0.9;
+            margin-top: 100px;
+            margin-right: 100px;
+        }
+        .howWeWorkDiv {
+            background: url(./images/bg-pattern-how-we-work-desktop.svg) no-repeat;
+            background-position: top right;
+            min-height:200px;
+            margin-bottom: 0px;
+        }
+        .icon {
+            padding-left: 8px;
+        }
+        .icon:hover{
+            opacity:0.8;
+        }
+        .linksDiv {
+            border-top: 1px solid var(--light_grey_blue);
+        }
+      .linksDiv h6{
+        padding-left:32px;
+        }
+      
+            ul {
+            list-style-type: none;
+        }
+        .inner {
+            position: absolute;
+            right: 1.6%;
+            min-width: 98%;
+   
+        }
+        .buttomLogo {
+            margin-bottom:30px;
+            padding-left:30px;
+        }
+        .navCol {
+            min-height: 61.25px;
+        }
+
+
+        .attribution {
+            background-color:white;
+            margin-top:10px;
+            font-size: 11px;
+            text-align: center;
+        }
+
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+
+        @media screen and (max-width: 576px) {
+
+            .navCol {
+              padding-left:0px;
+              padding-right:0px;
+            }
+            .navbar {
+             padding:0px;
+            }
+            
+            .navbar-collapse {
+                display: flex;
+                justify-content: center;
+                   
+            }
+            nav button.navbar-toggler span {
+                background-image: url("./images/icon-close.svg") !important;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+
+            .humazingRowDiv {
+                min-width: 100%;
+                height: 100%;
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+
+            .humazingColDiv1 {
+                background: url(./images/bg-pattern-intro-left-mobile.svg) no-repeat 0px 0vh,url(./images/bg-pattern-intro-right-mobile.svg) no-repeat 100% 25vh;
+                order: 2;
+                min-height: 240px;
+                text-align:center;
+            }
+
+                .humazingColDiv1 h3, .humazingColDiv1 p {
+                    padding: 0px;
+                    padding: 0px;
+                }
+
+            .humazingColDiv2 {
+                background: none;
+                padding: 0px;
+                order: 1;
+                max-height: 451px;
+            }
+
+            .image-intro {
+                background-image: url(./images/image-intro-mobile.jpg);
+                min-width: 100%;
+                min-height: 451px;
+                position: static;
+                margin-top: 0px;
+            }
+
+            .humazingBtn {
+                margin-bottom: 30px;
+            }
+            .linksDiv {
+                border-top:none;
+            }
+            .companyDiv {
+                border-top: 1px solid var(--light_grey_blue);
+            }
+            .center{
+                text-align:center;
+            }
+            .navbar-collapse {
+                min-height:200%;
+                background: url(./images/bg-pattern-mobile-nav.svg) no-repeat 50vw 22vh,var(--Dark_Violet);
+
+              
+            }
+            .navbar-light .navbar-nav .nav-link {
+                color: white;
+            }
+            .inner {
+                position:static;
+            }
+
+
+            .toolbarBtnView {
+                background-color: var(--Dark_Violet);
+                color: white;
+            }
+
+                .toolbarBtnView:hover {
+                    background-color: white;
+                    color: var(--Dark_Violet);
+                }
+        }
+    

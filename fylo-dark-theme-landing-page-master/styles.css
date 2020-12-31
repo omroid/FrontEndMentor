@@ -1,0 +1,253 @@
+﻿
+        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+        :root {
+            --Dark_Blue_intro_and_email_sign_up_background: hsl(217, 28%, 15%);
+            --Dark_Blue_main_background: hsl(218, 28%, 13%);
+            --Dark_Blue_footer_background: hsl(216, 53%, 9%);
+            --Dark_Blue_testimonials_background: hsl(219, 30%, 18%);
+            --Cyan_inside_call_to_action_gradient: hsl(176, 68%, 64%);
+            --Blue_inside_call_to_action_gradient: hsl(198, 60%, 50%);
+            --Light_Red_error: hsl(0, 100%, 63%);
+            --Linear_cyan_blue: linear-gradient( 135deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%) ); /*background-img*/
+        }
+
+        body {
+            color: white;
+            background-color: var(--Dark_Blue_main_background);
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .row {
+            padding: 25px;
+            /*font-family: 'Open Sans', sans-serif;*/
+            /*font-family: 'Raleway', sans-serif;*/
+        }
+
+        .col-sm-4 {
+            padding: 0px;
+        }
+
+        .col-sm-1 {
+            padding: 0px;
+        }
+
+        .logo {
+            max-width: 80%;
+        }
+
+        .toolbar {
+            background-color: var(--Dark_Blue_intro_and_email_sign_up_background);
+        }
+
+        .fullWidth {
+            position: absolute;
+            right: 1%;
+            min-width: 98%;
+        }
+
+        .navbar-light .navbar-nav .nav-link, a {
+            color: white;
+        }
+
+            .navbar-light .navbar-nav .nav-link:hover {
+                color: gray;
+            }
+
+            a:hover {
+                color: gray;
+            }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navbar-nav {
+            flex-direction: row;
+        }
+
+        .nav-item {
+            padding-left: 8px;
+        }
+
+        .accessDiv {
+            padding-top: 870px;
+        }
+
+        .illustrationStayImg {
+            width: 100%;
+            max-width: 650px;
+        }
+
+        .divAllFiles {
+            text-align: center;
+            background: url(./images/bg-curvy-desktop.svg)no-repeat var(--Dark_Blue_intro_and_email_sign_up_background);
+            background-position: bottom;
+            background-size: 100%;
+        }
+
+        .illustrationIntroImg {
+            max-width: 720px;
+            width: 100%;
+        }
+
+        .illustrationBtnWidth {
+            min-width: 250px;
+        }
+
+        .illustrationBtn {
+            background-image: var(--Linear_cyan_blue);
+            border-radius: 20px;
+            height: 50px;
+        }
+
+        .commandsRow {
+            background: url(./images/bg-quotes.png) no-repeat 0px 0vh;
+            padding: 55px;
+        }
+
+        .commandsCol {
+            margin-top: 15px;
+        }
+
+        .bgCommand {
+            background-color: var(--Dark_Blue_testimonials_background);
+            padding: 15px;
+            margin: 10px;
+        }
+
+        .commandProfileDiv {
+            display: flex;
+            flex-direction: row
+        }
+
+        .commandProfileImg {
+            width: 35px;
+            height: 35px;
+        }
+
+        .commandProfileName {
+            margin-bottom: 0px;
+            margin-left: 20px;
+        }
+
+        .commandProfileAct {
+            margin-bottom: 10px;
+            margin-left: 20px;
+            font-size: 9px;
+        }
+
+        .getAccessRow {
+            background-color: var(--Dark_Blue_intro_and_email_sign_up_background);
+            border-radius: 10px;
+            position: relative;
+            top: 100px;
+            left: 30px;
+            padding: 50px;
+            width: 98%;
+            text-align: center;
+        }
+
+        .getAccessDiv {
+            /*position:relative;*/
+            /*right:30px;*/
+        }
+
+        .getStartedBtn {
+            min-width: 80%;
+        }
+
+        .FormDiv {
+            padding: 0px;
+        }
+
+        .emailDiv {
+            margin-bottom: 30px;
+        }
+
+        .error_txt {
+            text-align: left;
+            color: var(--Light_Red_error);
+            padding-left: 15px;
+            height: 23.333px;
+        }
+
+            .error_txt p {
+                margin-bottom: 0px;
+            }
+
+        .aboutDiv {
+            background-color: var(--Dark_Blue_footer_background);
+            padding-top: 150px;
+        }
+
+        .locationDiv {
+            text-align: left;
+            padding-left: 15px;
+        }
+
+        .mailPhoneDiv {
+            padding-left: 15px;
+        }
+
+            .mailPhoneDiv ul {
+                text-align: left;
+            }
+
+        ul {
+            padding: 0px;
+        }
+
+
+        i {
+            font-size: 20px;
+            margin: 2px;
+        }
+
+        .footerDiv {
+            padding-top: 50px;
+            border-top: 1px solid var(--Dark_Blue_main_background);
+        }
+
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+
+        @media screen and (max-width: 576px) {
+            .row {
+                text-align: center;
+            }
+
+            .logo {
+                width: 100px;
+            }
+
+            .col_navbar, .navbar {
+                padding: 0px;
+            }
+
+            .accessDiv {
+                padding-top: 720px;
+            }
+
+            .divAllFiles {
+                background: url(./images/bg-curvy-mobile.svg)no-repeat var(--Dark_Blue_intro_and_email_sign_up_background);
+                background-position: bottom;
+                background-size: 100%;
+            }
+
+
+            .illustrationBtn {
+                min-width: 200px;
+            }
+        }
